@@ -26,7 +26,7 @@ Delays: Enter 0 for the fastest possible raid, or enter a number (like 0.5 or 1)
 
 Getting Tokens: 1. Open Discord in your browser.
 2. Press Ctrl+Shift+C, or others (depends on browser).
-3. Paste this: '(()=>{let token;for(let e of Object.values(webpackChunkdiscord_app.push([[Symbol()],{},e=>e.c])))try{if(!e.exports||e.exports===window)continue;if(e.exports?.getToken)token=e.exports.getToken();for(let t in e.exports)if(e.exports?.[t]?.getToken&&"IntlMessagesProxy"!==e.exports[t][Symbol.toStringTag])token=e.exports[t].getToken()}catch{}return token;})()' into the console.
+3. Paste this: (()=>{let token;for(let e of Object.values(webpackChunkdiscord_app.push([[Symbol()],{},e=>e.c])))try{if(!e.exports||e.exports===window)continue;if(e.exports?.getToken)token=e.exports.getToken();for(let t in e.exports)if(e.exports?.[t]?.getToken&&"IntlMessagesProxy"!==e.exports[t][Symbol.toStringTag])token=e.exports[t].getToken()}catch{}return token;})() into the console.
 4. Hit Enter and copy the token it gives you.
 
 ⚠️ *Disclaimer*
